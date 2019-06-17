@@ -1,10 +1,13 @@
 $color: teal;
+$bg-img: url('../images/image.png');
 
-h1 {
+div {
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   padding: 30px;
-  background-color: $color;
+  background: $bg-img no-repeat;
   color: white;
   text-align: center;
 }
